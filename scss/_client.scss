@@ -1,0 +1,69 @@
+.clients{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 120px;
+
+    .client-title{
+        font-size: 50px;
+        color: white;
+    }
+    .client-lis{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 45%;
+        font-size: 20px;
+        color: white;
+    
+    }
+
+    .client-item{
+        width: 100%;
+        display: flex;
+        gap: 50px;
+        padding: 50px 0px;
+        
+
+        .client-box{
+            display: flex;
+            flex-direction: column;
+            border: 1px solid gray;
+            border-radius: 10px;
+            border: none;
+            background-color: white;
+            padding: 50px 40px;
+            gap: 20px;
+            
+        }
+
+        .client-star{
+            font-size: 30px;
+            gap: 20px;
+            i{
+                color: gold;
+                
+            }
+        }
+        .client-list{
+            font-size: 22px;
+            width: 80%;
+            line-height: 30px;
+        }
+
+        .client-img{
+            display: flex;
+            align-items: center;
+            gap: 22px;
+            
+            .img-title{
+                color: #02897A;
+                font-size: 20px;
+            }
+            
+        }
+    }
+}

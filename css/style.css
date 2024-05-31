@@ -1,6 +1,9 @@
 .header {
   width: 100%;
   background-color: #1F2E35;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 .header .nav {
   display: flex;
@@ -461,7 +464,7 @@ main {
   font-size: 20px;
 }
 .price-table .table-cards .table-card .table-btn {
-  padding: 10px 50px;
+  padding: 20px 50px;
   font-size: 20px;
   border: none;
   border-radius: 5px;
@@ -469,6 +472,105 @@ main {
   color: white;
 }
 .price-table .table-cards .table-card .price-only {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
+}
+
+.clients {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px 120px;
+}
+.clients .client-title {
+  font-size: 50px;
+  color: white;
+}
+.clients .client-lis {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 45%;
+  font-size: 20px;
+  color: white;
+}
+.clients .client-item {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  padding: 50px 0px;
+}
+.clients .client-item .client-box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  padding: 50px 40px;
+  gap: 20px;
+}
+.clients .client-item .client-star {
+  font-size: 30px;
+  gap: 20px;
+}
+.clients .client-item .client-star i {
+  color: gold;
+}
+.clients .client-item .client-list {
+  font-size: 22px;
+  width: 80%;
+  line-height: 30px;
+}
+.clients .client-item .client-img {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.clients .client-item .client-img .img-title {
+  color: #02897A;
+  font-size: 20px;
+}
+
+.join-compannies {
+  width: 100%;
+  padding: 50px 200px;
+  display: flex;
+}
+.join-compannies .join-item {
+  display: flex;
+  width: 100%;
+  border-radius: 50px;
+  background-color: #02897A;
+}
+.join-compannies .join-item .join-title-btn {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  padding: 0px 50px;
+}
+.join-compannies .join-item .join-title-btn .join-title {
+  font-size: 56px;
+  width: 90%;
+  color: white;
+}
+.join-compannies .join-item .join-title-btn button {
+  padding: 20px 60px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  background-color: white;
+  color: #02897A;
+  cursor: pointer;
+}
+.join-compannies .join-item .join-img {
+  flex: 1;
+}
+.join-compannies .join-item .join-img img {
+  width: 100%;
 }
