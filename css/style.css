@@ -574,3 +574,48 @@ main {
 .join-compannies .join-item .join-img img {
   width: 100%;
 }
+
+.footer {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 120px;
+}
+.footer .footer-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  font-size: 1.5rem;
+  color: white;
+}
+.footer .footer-item .footer-box {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .footer-item .footer-box .legal {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 400;
+}
+.footer .footer-item .footer-box input {
+  width: 300px;
+  height: 55px;
+  padding: 0px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.footer .footer-item .footer-box button {
+  width: 150px;
+  height: 55px;
+  background-color: #02897A;
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
