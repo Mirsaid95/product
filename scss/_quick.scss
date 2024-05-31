@@ -1,0 +1,45 @@
+.quick{
+    width: 100%;
+    display: flex;
+    padding: 100px 120px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    .quick-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        gap: 50px;
+        .quick-title{
+            font-size: 50px;
+            color: white;
+
+        }
+        .quick-list{
+            width: 60%;
+            font-size: 24px;
+            color: white;
+        }
+
+        .quick-img{
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            row-gap: 50px;
+        }
+
+        .quick-btn{
+            padding: 20px 60px;
+            border: none;
+            border-radius: 5px;
+            background-color: #02897A;
+            cursor: pointer;
+            a{
+                color: white;
+                font-size: 20px;
+            }
+        }
+    }
+}
